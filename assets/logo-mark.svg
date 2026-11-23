@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none" role="img" aria-label="LoopQ">
+<title>LoopQ</title>
+<path d="M55.11 47.25A58 58 0 0 1 128.89 47.25" stroke="#A6D0C6" stroke-width="20" stroke-linecap="butt"/>
+<path d="M136.75 55.11A58 58 0 0 1 143.33 119.01" stroke="#A7C7E7" stroke-width="20" stroke-linecap="butt"/>
+<path d="M119.01 143.33A58 58 0 0 1 55.11 136.75" stroke="#5878A6" stroke-width="20" stroke-linecap="butt"/>
+<path d="M47.25 128.89A58 58 0 0 1 47.25 55.11" stroke="#2E3F66" stroke-width="20" stroke-linecap="butt"/>
+<path d="M109.23 109.23L155.98 155.98" stroke="#E0808A" stroke-width="20" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 180" width="485" height="180" fill="none" role="img" aria-label="LoopQ">
+<title>LoopQ</title>
+<path d="M31.5 30V118H71.5" stroke="#2E3F66" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="128.5" cy="89" r="29" stroke="#2E3F66" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="212.5" cy="89" r="29" stroke="#2E3F66" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M269.5 62V156" stroke="#2E3F66" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="298.5" cy="89" r="29" stroke="#2E3F66" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M378.51 40.05A44 44 0 0 1 434.49 40.05" stroke="#A6D0C6" stroke-width="15" stroke-linecap="butt"/>
+<path d="M440.45 46.01A44 44 0 0 1 445.37 94.62" stroke="#A7C7E7" stroke-width="15" stroke-linecap="butt"/>
+<path d="M427.12 112.87A44 44 0 0 1 378.51 107.95" stroke="#5878A6" stroke-width="15" stroke-linecap="butt"/>
+<path d="M372.55 101.99A44 44 0 0 1 372.55 46.01" stroke="#2E3F66" stroke-width="15" stroke-linecap="butt"/>
+<path d="M419.57 87.07L455.04 122.54" stroke="#E0808A" stroke-width="15" stroke-linecap="round"/>
+</svg>
