@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 232" width="1000" height="232" role="img" aria-label="LoopQ overview: a 2-bit trellis-coded format, closed-loop calibration, readout-aligned fine-tuning" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>LoopQ overview</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5878A6"/></marker></defs>
+<rect x="20" y="16" width="300" height="146" rx="14" fill="#EAF4FB" stroke="#A7C7E7" stroke-width="1.5"/>
+<text x="40" y="46" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#5878A6">FORMAT</text>
+<text x="40" y="72" font-size="16" font-weight="700" fill="#2E3F66">2 bits per weight</text>
+<text x="40" y="98" font-size="13" fill="#5B6B8C">Trellis-coded weights in every</text>
+<text x="40" y="118" font-size="13" fill="#5B6B8C">linear layer: one 512-entry table</text>
+<text x="40" y="138" font-size="13" fill="#5B6B8C">and one scale vector per layer.</text>
+<rect x="350" y="16" width="300" height="146" rx="14" fill="#E6F3EF" stroke="#A6D0C6" stroke-width="1.5"/>
+<text x="370" y="46" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#5878A6">STEP 1</text>
+<text x="370" y="72" font-size="16" font-weight="700" fill="#2E3F66">Closed-loop calibration</text>
+<text x="370" y="98" font-size="13" fill="#5B6B8C">Layer statistics are estimated</text>
+<text x="370" y="118" font-size="13" fill="#5B6B8C">on the states the quantized</text>
+<text x="370" y="138" font-size="13" fill="#5B6B8C">policy itself visits.</text>
+<rect x="680" y="16" width="300" height="146" rx="14" fill="#FDEEE6" stroke="#F4A7AE" stroke-width="1.5"/>
+<text x="700" y="46" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#5878A6">STEP 2</text>
+<text x="700" y="72" font-size="16" font-weight="700" fill="#2E3F66">Readout-aligned fine-tuning</text>
+<text x="700" y="98" font-size="13" fill="#5B6B8C">Codes stay frozen. Tables and</text>
+<text x="700" y="118" font-size="13" fill="#5B6B8C">scales are trained to match what</text>
+<text x="700" y="138" font-size="13" fill="#5B6B8C">the action head reads.</text>
+<path d="M327 89.0H342" stroke="#5878A6" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M657 89.0H672" stroke="#5878A6" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M566.0 168V184Q566.0 196 554.0 196H446.0Q434.0 196 434.0 184V171" stroke="#5878A6" stroke-width="2" fill="none" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="500.0" y="215" font-size="12.5" fill="#5878A6" text-anchor="middle" font-weight="600">rollouts of the 2-bit policy</text>
+</svg>
