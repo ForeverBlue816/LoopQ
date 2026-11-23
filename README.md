@@ -23,8 +23,6 @@
 
 <br>
 
-<p align="center"><img src="assets/overview.svg" alt="LoopQ overview" width="900"></p>
-
 A policy acts in closed loop: its outputs decide its next inputs. **LoopQ** quantizes a vision-language-action model with that
 loop in view: calibration follows the quantized policy, and fine-tuning follows what the action head reads.
 
@@ -139,7 +137,7 @@ At 1 bit per weight, π₀.₅ with LoopQ completes 80.0 % of LIBERO; the best b
 | [`results/`](results) | Per-episode outcomes on LIBERO-Plus and LIBERO, at 2 bits and 1 bit |
 | [`baselines/`](baselines) | Evaluation protocol and baseline harness for π₀.₅ and GR00T N1.7 |
 | [`deploy/tcq_kernels/`](deploy/tcq_kernels) | CUDA kernels for the 2-bit format with 8-bit activations |
-| [`assets/`](assets) | Logo, overview and real-robot clips |
+| [`assets/`](assets) | Logo and real-robot clips |
 
 Evaluate a checkpoint on the 1,000 LIBERO-Plus instances and pair it with any released row:
 
