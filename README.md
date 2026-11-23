@@ -7,7 +7,6 @@
 
 <h3 align="center">Quantizing in the Loop:<br>Drift-Aware Ultra-Low-Bit Vision-Language-Action Models</h3>
 
-<p align="center"><em>Every linear layer of a VLA at 2 bits per weight, backbone and action head alike.</em></p>
 
 ---
 
