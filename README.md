@@ -9,16 +9,19 @@
 <p align="center"><b>Drift-Aware Ultra-Low-Bit Vision-Language-Action Models</b></p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.30178"><img alt="arXiv 2611.30178" src="https://img.shields.io/badge/arXiv-2611.30178-B31B1B?logo=arxiv&logoColor=white"></a>
   <a href="https://huggingface.co/ForeverBlue/LoopQ-pi05-libero-2bit"><img alt="π0.5 checkpoint" src="https://img.shields.io/badge/Checkpoint-%CF%80%E2%82%80.%E2%82%85%20%C2%B7%20LIBERO%20%C2%B7%202%20bits-5878A6?logo=huggingface&logoColor=white"></a>
   <a href="https://huggingface.co/ForeverBlue/LoopQ-GR00T-N1.7-libero-2bit"><img alt="GR00T N1.7 checkpoint" src="https://img.shields.io/badge/Checkpoint-GR00T%20N1.7%20%C2%B7%20LIBERO%20%C2%B7%202%20bits-5878A6?logo=huggingface&logoColor=white"></a>
   <a href="results"><img alt="Per-episode results" src="https://img.shields.io/badge/Results-per%20episode-A6D0C6"></a>
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2611.30178">Paper</a> ·
   <a href="#real-robot">Real robot</a> ·
   <a href="#checkpoints">Checkpoints</a> ·
   <a href="#results">Results</a> ·
-  <a href="#repository">Repository</a>
+  <a href="#repository">Repository</a> ·
+  <a href="#citation">Citation</a>
 </p>
 
 <br>
@@ -148,4 +151,17 @@ cd baselines
 python serve.py --checkpoint ./my_checkpoint --port 8105 &
 python eval_libero_plus.py --port 8105 --units data/plus_units_selection_1000.json --out ./my_checkpoint/plus_1000.jsonl
 python paired_stats.py plus --candidate ./my_checkpoint/plus_1000.jsonl --reference ../results/libero_plus/pi05/full_precision.jsonl
+```
+
+## Citation
+
+If you use LoopQ, its checkpoints or its results, please cite our paper:
+
+```bibtex
+@article{chen2026loopq,
+  title   = {Quantizing in the Loop: Drift-Aware Ultra-Low-Bit Vision-Language-Action Models},
+  author  = {Chen, Yanlong and Chamadol, Thongthornpatch and Guo, Yichen and Gao, Yunfei and Liu, Mohan and Wang, Addison Lin and Li, Yawei},
+  journal = {arXiv preprint arXiv:2611.30178},
+  year    = {2026}
+}
 ```
